@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2>JavaScript For loop</h2>
+    <script>
+        const investment = 1000;
+        const annualRate =7.0;
+        const years = 10;
+
+        let futureValue = investment;
+        
+        for (let i = 1; i <= years; i++){
+            futureValue += futureValue * annualRate / 100
+            console.log("This is the value of i ", i)
+        }
+
+        alert(`FutureValue is ${futureValue}`)
+    </script>
+
+</body>
+</html>
