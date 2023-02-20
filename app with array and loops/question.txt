@@ -1,0 +1,26 @@
+Modify this Application according to instructions given below:
+
+* If the average score is more than 10,
+ divide each element of array by 2 and again get the average untill you get an average less than 10.
+
+
+* Save the value of modified elements  in a new array and then print the new array on HTML.
+
+
+example -> 
+
+Score 1: 10
+
+Score 2: 10
+
+Score 3: 11
+
+Average score is 10
+
+New Score 1: 5
+
+New Score 2: 5
+
+New Score 3: 5
+
+Average score is 5
