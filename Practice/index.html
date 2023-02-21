@@ -25,7 +25,20 @@ Use a for loop to iterate over the array of age groups and return the appropriat
 
 	<script>
 		function displayMessage() {
-			// TODO: Write code here
+            const age =  parseInt(document.getElementById('age').value);
+            let ageArray = ["minor", "adult", "senior citizen"]
+            let finalString = "";
+
+            for(let i = 0; i< ageArray.length; i++){
+                if(i == 0 && (age < 18)){
+                    finalString = `You are a ${ageArray[i]}`
+                }else if(i == 1 && (age >18 && age < 65)){
+                    finalString = `You are a ${ageArray[i]}`
+                }else if(i == 2 && ( age > 65)) {
+                    finalString = `You are a ${ageArray[i]}`
+                }
+                document.getElementById('message').textContent = finalString
+            }
 		}
 	</script>
 </body>
