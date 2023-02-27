@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Functions</h2>
+
+<p id="demo">I am text from p1</p>
+
+<p id="demo1"></p>
+
+<script>
+
+function $(id) {
+  return document.getElementById(id);
+} 
+
+const eleText = $("demo").innerHTML
+
+document.getElementById("demo1").innerHTML =  eleText + " in p2"
+
+
+</script>
+
+</body>
+</html>
+
+
